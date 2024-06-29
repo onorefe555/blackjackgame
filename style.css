@@ -1,0 +1,51 @@
+container{
+    margin :0;
+    padding :0;
+    font-size:25px;
+    background: url(./img/smoke.jpg);
+    background-position:center;
+    background-size:cover;
+    color:white;
+    min-height:400px;
+    height: 100vh;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+}
+h2{
+    color: green;
+    font-weight:bold;
+}
+img{
+    width: 65%;
+}
+h3{
+    color :green;
+}
+.jack{
+    width:30%;
+    float:left;
+    font-weight :bold;
+    text-align: center ;
+}
+.p{
+    color:white;
+}
+button{
+    color:white;
+    background :green;
+    padding :10px;
+    margin :5px;
+    border :none;
+    weight :40%;
+    border-radius:5px;
+}
+button:hover{
+    color:white;
+    background :orangered;
+    padding :10px;
+    margin :5px;
+    border :none;
+    weight :40%;
+    border-radius:5px;
+}
