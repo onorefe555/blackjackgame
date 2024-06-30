@@ -1,26 +1,38 @@
+body{
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-image: url(./img/smoke-1001667_1280.png);
+    background-repeat: no-repeat;
+    color: white;
+}
 container{
-    margin :0;
+    margin-top: 4rem;
     padding :0;
     font-size:25px;
-    background: url(./img/smoke.jpg);
+    background: linear-gradient(rgba(206, 184, 184, 0.733), rgba(161, 157, 157, 0.733)), url('./img/smoke-1001667_1280.png');
     background-position:center;
     background-size:cover;
-    color:white;
-    min-height:400px;
-    height: 100vh;
+    min-height:100vh;
     align-items: center;
     align-content: center;
     text-align: center;
+    justify-items: center;
+    
 }
 h2{
     color: green;
     font-weight:bold;
+    font-size: 40px;
+    letter-spacing: 4px;
 }
 img{
     width: 65%;
 }
 h3{
-    color :green;
+    color :orange;
+    font-size: 23px;
+    font-weight: 600;
 }
 .jack{
     width:30%;
@@ -28,17 +40,19 @@ h3{
     font-weight :bold;
     text-align: center ;
 }
-.p{
+p{
     color:white;
+    font-size: 25px;
 }
 button{
     color:white;
     background :green;
-    padding :10px;
+    padding :13px;
     margin :5px;
     border :none;
     weight :40%;
     border-radius:5px;
+    font-size: 20px;
 }
 button:hover{
     color:white;
@@ -46,6 +60,7 @@ button:hover{
     padding :10px;
     margin :5px;
     border :none;
-    weight :40%;
+    width: 40%;
     border-radius:5px;
+    cursor: pointer;
 }
